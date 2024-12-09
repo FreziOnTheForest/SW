@@ -1,9 +1,36 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+
+    </style>
+
+    <style name="StreetTheme" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:windowBackground">@drawable/street_facade</item>
+    </style>
+
+    <style name="SplashTheme" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:windowBackground">@drawable/splash_screen</item>
+    </style>
+
     <style name="Base.Theme.SmartHouse" parent="Theme.Material3.DayNight.NoActionBar">
         <!-- Customize your light theme here. -->
         <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
     </style>
 
     <style name="Theme.SmartHouse" parent="Base.Theme.SmartHouse" />
+
+    <!-- /////////////////////////////////////////////////////////////////////-->
+    <style name="pinDotUnfill">
+        <item name="android:layout_width">16dp</item>
+        <item name="android:layout_height">16dp</item>
+        <item name="android:layout_margin">4dp</item>
+        <item name="android:background">@drawable/circle_unfilled</item>
+    </style>
+
+    <style name="pinDotFill">
+        <item name="android:layout_width">16dp</item>
+        <item name="android:layout_height">16dp</item>
+        <item name="android:layout_margin">4dp</item>
+        <item name="android:background">@drawable/circle_filled</item>
+    </style>
 </resources>
